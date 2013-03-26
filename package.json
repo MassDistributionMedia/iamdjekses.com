@@ -4,27 +4,26 @@
 	"description": "Twitter Bootstrap skeleton for DocPad. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
 	"homepage": "https://github.com/bevry/twitter-bootstrap.docpad",
 	"keywords": [
-		"docpad-skeleton",
 		"docpad",
-		"website",
 		"bootstrap",
-		"twitter bootstrap"
+		"dj",
+		"dj-ekses"
 	],
-	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+	"author": "MDM Inc <mike@mdm.cm>",
 	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
+		"Michael Mooring <mike@mdm.cm>"
 	],
 	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
+		"Michael Mooring <mike@mdm.cm>"
 	],
 	"bugs": {
-		"url": "https://github.com/docpad/twitter-bootstrap.docpad/issues"
+		"url": "https://github.com/MassDistributionMedia/iamdjekses.com/issues"
 	},
-	"repository" : {
-		"type" : "git",
-		"url" : "http://github.com/docpad/twitter-bootstrap.docpad.git"
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MassDistributionMedia/iamdjekses.com.git"
 	},
-	"engines" : {
+	"engines": {
 		"node": "0.8.x",
 		"npm": "1.1.x"
 	},
@@ -43,11 +42,11 @@
 		"docpad-plugin-livereload": "2.x"
 	},
 	"main": "node_modules/docpad/bin/docpad-server",
-    "subdomain": "iamdjekses-mdm",
-    "domains": [
-    	"iamdjekses.com"
-    ],
-    "scripts": {
-    	"start": "node_modules/docpad/bin/docpad-server"
-  }
+	"subdomain": "iamdjekses-mdm",
+	"domains": [
+		"iamdjekses.com"
+	],
+	"scripts": {
+		"start": "node_modules/docpad/bin/docpad-server"
+	}
 }
