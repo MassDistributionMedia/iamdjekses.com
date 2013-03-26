@@ -1,5 +1,5 @@
 {
-	"name": "twitter-bootstrap.docpad",
+	"name": "iamdjekses.docpad",
 	"version": "0.9.0",
 	"description": "Twitter Bootstrap skeleton for DocPad. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
 	"homepage": "https://github.com/bevry/twitter-bootstrap.docpad",
@@ -42,5 +42,12 @@
 	"devDependencies": {
 		"docpad-plugin-livereload": "2.x"
 	},
-	"main": "node_modules/docpad/bin/docpad-server"
+	"main": "node_modules/docpad/bin/docpad-server",
+    "subdomain": "iamdjekses-mdm",
+    "domains": [
+    	"iamdjekses.com"
+    ],
+    "scripts": {
+    	"start": "node_modules/docpad/bin/docpad-server"
+  }
 }
