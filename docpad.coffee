@@ -12,32 +12,30 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://iamdjekses.com"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'www.djekses.com'
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "I AM DJ EKSES"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				djekses, DJ EKSES, EKSES, DJ, 9Volt Remix
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Mass Distribution Media"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "mike@mdm.cm"
 
 
 
