@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Your Website</title>
-    <link href="http://website.com/atom.xml" rel="self"/>
-    <link href="http://website.com"/>
-    <updated>2013-03-27T01:09:20.395Z</updated>
-    <id>http://website.com</id>
+    <title>I AM DJ EKSES</title>
+    <link href="http://iamdjekses.com/atom.xml" rel="self"/>
+    <link href="http://iamdjekses.com"/>
+    <updated>2013-04-04T17:45:51.783Z</updated>
+    <id>http://iamdjekses.com</id>
     <author>
-        <name>Your Name</name>
-        <email>your@email.com</email>
+        <name>Mass Distribution Media</name>
+        <email>mike@mdm.cm</email>
     </author>
 
     
