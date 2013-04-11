@@ -1,15 +1,19 @@
 $(document).ready(function() {
 
 $(window).scroll(function () {       
-
-        if ($(this).scrollTop() > 67) {
+	if ($(this).scrollTop() > 67) {
         $('.navbar').css({position:'fixed', top: 0, right: '133px'});
-        $('.social-icons').css({position:'fixed', top: '26px', right: '13px'});
+        $('.social-icons').css({position:'fixed', top: '3px', right: '13px'});
     } else{
         $('.navbar').css({position: 'relative', top: '', right: ''});
         $('.social-icons').css({position: 'relative', top: '', right: ''});
     }
 
+	if ($(this).scrollTop() > 256) {
+        $('.logo-scrolled').css('display', 'block');
+    } else{
+        $('.logo-scrolled').css('display', 'none');
+    }
 });
 
 // page fade effect - this simple trick first waits for page to load(images, content) and after it's loaded fades it. You can remove it by deleting this section.

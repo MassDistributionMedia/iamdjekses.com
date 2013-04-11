@@ -76,8 +76,19 @@ blockquote.pull-right {border-right: 5px solid #999;}
     overflow: hidden;
 }
 .logo a { float:left;}
-.logo img { padding-right:20px;float:left; }
+.logo img { 
+    padding-right:20px;
+    float:left;
+    display: block; 
+}
 .logo h5 { display: inline-block; }
+.logo-scrolled{
+    display: none;
+    position: fixed;
+    top:0px;
+    margin: -22px 0px 0px 33px;
+    z-index: 1;
+}
 .headline { margin-bottom:20px; }
 
 
@@ -535,7 +546,14 @@ ul.img-feed li {
 }
 
 /**** Social Icons ****/
-.social-icons {padding: 7px;float: right;margin:-39px 0 0 0;}
+#tweet{
+    width: 399px;
+    float: left; 
+    margin: 3px 0 0 19px;
+    text-align: right;
+}
+
+.social-icons {padding: 7px;float: right;margin:-13px 0 0 0;}
 .social-icons li {
     float:right;
     list-style: none; 
